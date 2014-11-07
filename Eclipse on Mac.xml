@@ -664,7 +664,9 @@
   <action id="MoveStatementUp">
     <keyboard-shortcut first-keystroke="alt UP" />
   </action>
-  <action id="NewElement" />
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="shift meta N" />
+  </action>
   <action id="NewElementSamePlace" />
   <action id="NextDiff">
     <keyboard-shortcut first-keystroke="meta F7" />
@@ -855,7 +857,7 @@
     <keyboard-shortcut first-keystroke="meta F5" />
   </action>
   <action id="SmartTypeCompletion">
-    <keyboard-shortcut first-keystroke="shift alt SPACE" />
+    <keyboard-shortcut first-keystroke="control alt SPACE" />
   </action>
   <action id="StepInto" />
   <action id="StepOut">
